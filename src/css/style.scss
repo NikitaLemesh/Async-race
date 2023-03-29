@@ -1,0 +1,253 @@
+.body {
+    background-color: rgba(39, 24, 49, 1);
+    
+    .header_btn {
+        text-decoration: none;
+        padding: 3px;
+        color: rgba(144, 51, 206, 0.7);
+        background-color:  rgba(0, 0, 0, 1);
+        border: 1px solid rgba(144, 51, 206, 0.7);
+        border-radius: 10%;
+    }
+
+    .creating_cars_box{
+        display: flex;
+        margin: 10px 0;
+        .creating_cars_input{
+            display: flex;
+            flex-direction: column;
+            .input__create-car{
+                height: 19px;
+                margin-bottom: 5px;
+                width: 200px;
+                margin-right: 3px;
+                outline: none;
+            }
+            .input__update-car{
+                height: 19px;
+                width: 200px;
+                margin-right: 3px;
+                outline: none;
+            }
+        }
+
+        .creating_cars_color{
+            display: flex;
+            flex-direction: column;
+            .inpur__color-car{
+                height: 25px;
+                margin-bottom: 5px;
+                margin-right: 3px;
+                border-radius: 10%;
+            }
+            .input__update-color-car{
+                height: 25px;
+                margin-right: 3px;
+                border-radius: 10%;
+            }
+        }
+
+        .button__car {
+            display: flex;
+            flex-direction: column;
+            .btn__create-car{
+                height: 25px;
+                margin-bottom: 5px;
+                border-radius: 10%;
+                color: rgba(144, 51, 206, 0.7);
+                background-color:  rgba(0, 0, 0, 1);
+                border: 1px solid rgba(144, 51, 206, 0.7);
+            }
+            .btn__update-car{
+                height: 25px;
+                border-radius: 10%;
+                color: rgba(144, 51, 206, 0.7);
+                background-color:  rgba(0, 0, 0, 1);
+                border: 1px solid rgba(144, 51, 206, 0.7);
+            }
+        }
+    }
+
+    .btn__race-generat{
+        .btn__race{
+            height: 25px;
+            margin-right: 13px;
+            border-radius: 10%;
+            color: rgba(144, 51, 206, 0.7);
+            border: 1px solid rgba(144, 51, 206, 0.7);
+        }
+        .btn__reset{
+            height: 25px;
+            margin-right: 13px;
+            border-radius: 10%;
+            color: rgba(144, 51, 206, 0.7);
+            border: 1px solid rgba(144, 51, 206, 0.7);
+        }
+        .btn__generate{
+            height: 25px;
+            border-radius: 10%;
+            color: rgba(144, 51, 206, 0.7);
+            background-color:  rgba(0, 0, 0, 1);
+            border: 1px solid rgba(144, 51, 206, 0.7);
+        }
+    }
+}
+
+.page__title{
+    color: rgba(144, 51, 206, 0.7);
+}
+
+.page__number{
+    color: rgba(144, 51, 206, 0.7);
+}
+
+.div__car-container{
+    .div__change-car{
+        margin-bottom: 15px;
+        .btn__select-car{
+            height: 25px;
+            border-radius: 10%;
+            color: rgba(144, 51, 206, 0.7);
+            background-color:  rgba(0, 0, 0, 1);
+            border: 1px solid rgba(144, 51, 206, 0.7);
+        }
+        .btn__remove-car{
+            height: 25px;
+            border-radius: 10%;
+            color: rgba(144, 51, 206, 0.7);
+            background-color:  rgba(0, 0, 0, 1);
+            border: 1px solid rgba(144, 51, 206, 0.7);
+        }
+        .car-model{
+            color: rgba(144, 51, 206, 0.7);
+        }
+    }
+    .div__car-move{
+        display: flex;
+        align-items: center;
+        border-bottom: 3px dotted rgba(144, 51, 206, 0.7);
+        margin-bottom: 10px;
+        position: relative;
+        .btn__start {
+            margin-right: 10px;
+            border-radius: 10%;
+            color: rgba(144, 51, 206, 0.7);
+            border: 1px solid rgba(144, 51, 206, 0.7);
+        }
+        .btn__stop {
+            margin-right: 10px;
+            border-radius: 10%;
+            color: rgba(144, 51, 206, 0.7);
+            border: 1px solid rgba(144, 51, 206, 0.7);
+        }
+        .image__car {
+            width: 50px;
+            height: 50px;
+        }
+        .img_flag {
+            position: absolute;
+            right: 80px;
+        }
+    }
+}
+
+.div__buttons{
+    .btn__prev-page{
+        margin-right: 10px;
+        border-radius: 10%;
+        color: rgba(144, 51, 206, 0.7);
+        background-color:  rgba(0, 0, 0, 1);
+        border: 1px solid rgba(144, 51, 206, 0.7);
+    }
+    .btn__next-page{
+        margin-right: 10px;
+        border-radius: 10%;
+        color: rgba(144, 51, 206, 0.7);
+        background-color:  rgba(0, 0, 0, 1);
+        border: 1px solid rgba(144, 51, 206, 0.7);
+    }
+}
+
+.message{
+    background-color: rgba(144, 51, 206, 0.8);
+    position: absolute;
+    top: 200px;
+    left: calc(50% - 130px);
+    font-size: 28px;
+    width: 360px;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.6);
+}
+
+.title{
+    color: rgba(144, 51, 206, 0.7);
+}
+
+.page__number-winners{
+    color: rgba(144, 51, 206, 0.7);
+}
+tbody{
+    display: flex;
+    flex-direction: column;
+    .tr_title{
+        display: flex;
+        width: 480px;
+        justify-content: space-between;
+        color: rgba(144, 51, 206, 0.7);
+    }
+    .tr_title th{
+        width: 20%;
+        border: 1px solid rgba(144, 51, 206, 0.7);
+        font-size: 14px;
+    }
+    
+    .tr_car{
+        display: flex;
+        width: 480px;
+        justify-content: space-between;
+        text-align: center;
+        color: rgba(144, 51, 206, 0.7);
+        .image__car{
+            height: 30px;
+            width: 30px;
+        }
+    }
+    .tr_car td{
+        width: 20%;
+        border: 1px solid rgba(144, 51, 206, 0.7);
+        line-height: 30px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .message{
+        top: 170px;
+        left: calc(50% - 110px);
+        font-size: 18px;
+        width: 220px;
+    }
+    .div__car-container{
+        .div__change-car{
+            .btn__select-car{
+            }
+            .btn__remove-car{
+            }
+            .car-model{
+            }
+        }
+        .div__car-move{
+            .btn__start {
+            }
+            .btn__stop {
+            }
+            .image__car {
+                width: 35px;
+                height: 35px;
+            }
+            .img_flag {
+            }
+        }
+    }
+}
